@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadowlink - Information Security Consulting</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+        }
+        /* Custom Tailwind configuration for colors */
+        .primary-color { background-color: #297099; }
+        .primary-text { color: #297099; }
+        .secondary-color { background-color: #FFC000; }
+        .secondary-text { color: #FFC000; }
+        /* Smooth scrolling for anchor links */
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Header and Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto p-4 flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold primary-text">Shadowlink</a>
+            <div class="flex space-x-6 text-lg font-semibold">
+                <a href="#services" class="hover:text-amber-500 transition-colors duration-200">Services</a>
+                <a href="#products" class="hover:text-amber-500 transition-colors duration-200">Products</a>
+                <a href="#about" class="hover:text-amber-500 transition-colors duration-200">About Us</a>
+                <a href="#contact" class="hover:text-amber-500 transition-colors duration-200">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="min-h-screen flex items-center justify-center text-center bg-gray-100 p-8">
+            <div class="max-w-4xl px-4 py-20">
+                <h1 class="text-5xl md:text-6xl font-extrabold primary-text leading-tight mb-6">
+                    Securing Your Digital Future
+                </h1>
+                <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
+                    At Shadowlink, we provide expert information security consulting to protect your most valuable assets.
+                </p>
+                <a href="#contact" class="inline-block py-3 px-8 text-white secondary-color font-bold rounded-full shadow-lg hover:bg-yellow-600 transition-colors duration-300">
+                    Get a Free Consultation
+                </a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-24 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center primary-text mb-16">Our Services</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+                    <!-- Service Card 1 -->
+                    <div class="bg-gray-50 rounded-2xl p-8 shadow-md">
+                        <div class="secondary-text text-4xl mb-4">🛡️</div>
+                        <h3 class="text-2xl font-semibold mb-2">Penetration Testing</h3>
+                        <p class="text-gray-600">Proactively identify and fix vulnerabilities before they can be exploited.</p>
+                    </div>
+                    <!-- Service Card 2 -->
+                    <div class="bg-gray-50 rounded-2xl p-8 shadow-md">
+                        <div class="secondary-text text-4xl mb-4">🔍</div>
+                        <h3 class="text-2xl font-semibold mb-2">Security Audits</h3>
+                        <p class="text-gray-600">Comprehensive review of your security policies, procedures, and infrastructure.</p>
+                    </div>
+                    <!-- Service Card 3 -->
+                    <div class="bg-gray-50 rounded-2xl p-8 shadow-md">
+                        <div class="secondary-text text-4xl mb-4">🔒</div>
+                        <h3 class="text-2xl font-semibold mb-2">Compliance & Governance</h3>
+                        <p class="text-gray-600">Ensure your business meets industry standards and regulatory requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="py-24 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center primary-text mb-16">Our Products</h2>
+                <div class="flex flex-col md:flex-row gap-12">
+                    <!-- Product Card 1 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-md flex-1">
+                        <h3 class="text-2xl font-semibold mb-2">ShadowLink Monitor</h3>
+                        <p class="text-gray-600 mb-4">A powerful, real-time threat detection and monitoring platform.</p>
+                        <a href="#contact" class="text-sky-700 font-bold hover:underline secondary-text transition-colors duration-200">Learn More &rarr;</a>
+                    </div>
+                    <!-- Product Card 2 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-md flex-1">
+                        <h3 class="text-2xl font-semibold mb-2">Risk Assessment Toolkit</h3>
+                        <p class="text-gray-600 mb-4">An intuitive tool to help you identify and manage your security risks.</p>
+                        <a href="#contact" class="text-sky-700 font-bold hover:underline secondary-text transition-colors duration-200">Learn More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-24 bg-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold primary-text mb-8">About Shadowlink</h2>
+                <div class="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
+                    <p class="mb-4">
+                        Founded by a team of experienced cybersecurity professionals, Shadowlink is committed to helping businesses of all sizes navigate the complex landscape of digital threats. Our mission is to provide clear, actionable, and effective security solutions.
+                    </p>
+                    <p class="mb-4">
+                        We believe that robust security should be accessible to everyone. Our client-focused approach ensures that every solution is tailored to your unique needs and challenges.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="py-24 bg-gray-100">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold primary-text mb-8">Contact Us</h2>
+                <p class="text-lg text-gray-700 mb-8">
+                    Ready to enhance your security posture? Reach out to us for a personalized consultation.
+                </p>
+                <div class="max-w-xl mx-auto text-center">
+                    <p class="text-lg text-gray-800 font-semibold mb-2">Email:</p>
+                    <a href="mailto:dev@shadowlink.me" class="text-xl secondary-text font-bold hover:underline">dev@shadowlink.me</a>
+                    <p class="text-sm text-gray-500 mt-1">
+                        (Note: This website and consultancy is in development. )
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary-color text-white py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Shadowlink. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
